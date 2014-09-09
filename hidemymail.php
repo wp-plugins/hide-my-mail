@@ -129,7 +129,7 @@ function hmm_convert($emailMatch) {
 }
 
 function hmm_main($text) {
-	$pregMatch = preg_match_all('/((<a href="mailto:)?[a-z][a-z0-9_.-\/]*@[^\s\"\)\?<>]+\.[a-z]{2,6}(">)?)/i', $text, $emailMatches);
+	$pregMatch = preg_match_all('/((<a)?.*(href="mailto:)?[a-z][a-z0-9_.-\/]*@[^\s\"\)\?<>]+\.[a-z]{2,6}(">)?)/i', $text, $emailMatches);
 	foreach($emailMatches[1] as $emailMatch) {
 		$text = str_replace($emailMatch, hmm_convert($emailMatch), $text);
 	}
@@ -137,4 +137,5 @@ function hmm_main($text) {
 }
 
 add_filter('the_content', 'hmm_main');
+add_filter('widget_text', 'hmm_main');
 ?>

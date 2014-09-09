@@ -3,7 +3,7 @@ Contributors: Patrick de Koning
 Author URI: http://hmm.wordpress.pdkwebs.nl
 Tags: hide, email address, mail, bots, unicode
 Requires at least: 1.0
-Tested up to: 3.8.1
+Tested up to: 4.0
 Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Hide all Email Addresses from bots by displaying it with JavaScript and Unicode.
 
 == Description ==
-
 With Hide My Mail you can easily hide all e-mail addresses from bots. They are being translated into a computer-unreadable format.
 
 Features:
@@ -24,13 +23,8 @@ Features:
 
 
 == Installation ==
-
 1. Upload the 'hidemymail' folder to the /wp-content/plugins directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-
-== Frequently Asked Questions ==
-
-Have a question? Email me at hmm@wordpress.pdkwebs.nl
 
 
 == Examples ==
@@ -41,13 +35,22 @@ Have a question? Email me at hmm@wordpress.pdkwebs.nl
 <script type='text/javascript'>document.write('\u003C\u0061','\u0020\u0068','\u0072','\u0065','\u0066','\u003D\u0022','\u0068','\u006D','\u006D\u0040','\u0077','\u006F','\u0072\u0064','\u0070','\u0072','\u0065','\u0073','\u0073\u002E\u0070\u0064\u006B','\u0077','\u0065','\u0062\u0073\u002E','\u006E\u006C','\u0022','\u003E','\u0068','\u006D','\u006D','\u0040','\u0077','\u006F\u0072','\u0064','\u0070\u0072\u0065','\u0073','\u0073\u002E\u0070\u0064\u006B','\u0077\u0065\u0062\u0073','\u002E','\u006E','\u006C\u003C\u002f\u0061','\u003E');</script>
 
 
-== Changelog ==
+== Frequently Asked Questions ==
+Have a question? Email me at hmm@wordpress.pdkwebs.nl
 
+
+== Changelog ==
 = 1.0 =
 * Set up basic functionality
 
+= 1.1 =
+* Works now also for Widgets and Posts
+* Some general bugfixes
+
 
 == Upgrade Notice ==
-
 = 1.0 =
-* No currently update found.
+* No current update found.
+
+= 1.1 =
+* Hide My Mail works now also for Widgets and Posts!
