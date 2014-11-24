@@ -3,7 +3,7 @@ Contributors: Patrick de Koning
 Author URI: http://hmm.wordpress.pdkwebs.nl
 Tags: hide, email address, mail, bots, unicode
 Requires at least: 1.1
-Tested up to: 4.0
+Tested up to: 4.0.1
 Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -47,7 +47,12 @@ Have a question? Email me at hmm@wordpress.pdkwebs.nl
 * Works now also for Widgets and Posts
 * Some general bugfixes
 
+= 1.2 =
+* Works now also for shortcodes in Pages, Posts and Widgets
 
 == Upgrade Notice ==
 = 1.1 =
 * Hide My Mail works now also for Widgets and Posts!
+
+= 1.2 =
+* Hide My Mail works now also for shortcodes in Pages, Posts and Widgets!

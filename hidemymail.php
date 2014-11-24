@@ -3,7 +3,7 @@
  * Plugin Name: Hide My Mail
  * Plugin URI: http://hmm.wordpress.pdkwebs.nl
  * Description: Hide all Email Addresses from bots by displaying it with JavaScript and Unicode.
- * Version: 1.1
+ * Version: 1.2
  * Author: Patrick de Koning
  * Author URI: http://www.pcdekoning.nl/wordpress-plugins
  * License: GPL2
@@ -136,6 +136,6 @@ function hmm_main($text) {
 	return $text;
 }
 
-add_filter('the_content', 'hmm_main');
-add_filter('widget_text', 'hmm_main');
+add_filter('the_content', 'hmm_main', 99);
+add_filter('widget_text', 'hmm_main', 99);
 ?>
