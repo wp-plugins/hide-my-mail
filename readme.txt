@@ -3,7 +3,7 @@ Contributors: Patrick de Koning
 Author URI: http://hmm.wordpress.pdkwebs.nl
 Tags: hide, email address, mail, bots, unicode
 Requires at least: 1.1
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: trunk
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
